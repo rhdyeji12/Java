@@ -18,7 +18,7 @@ public class Test06 {
 		System.out.print("y값 입력 : ");
 		int y = sc.nextInt();
 		
-		            = x > y ? "x가 더 큽니다." : "y가 더 큽니다.";
+		String result = x > y ? "x가 더 큽니다." : "y가 더 큽니다.";
 		            
 		System.out.println(result);
 	}
