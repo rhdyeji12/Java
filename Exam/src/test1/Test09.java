@@ -13,12 +13,19 @@ public class Test09 {
 			
 			if(i<=5) {
 				count++;
-				
 			}else {
 				count--;
 			}
+						
+			for(int j=1 ; j<=5-count ; j++) {
+				System.out.print(" ");
+			}
 			
-			for(int j=1 ; j<=5)
-		}
+			for(int k=1 ; k<=2*count-1 ; k++) {
+				System.out.print("*");
+			}
+			
+			System.out.print("\n");
+		}		
 	}
 }
